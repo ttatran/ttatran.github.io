@@ -22,10 +22,10 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-#  avatar           : "profile.png"
+#  avatar           : ""
   name             : "Tran Ta-Tran"
   pronouns         : "she/her"  
-#  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD student in Linguistics"
  # location         : "Earth"
   employer         : "Cornell University"
   uri              : # URL
