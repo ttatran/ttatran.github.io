@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Tran Ta-Tran"
+title                    : "Home"
 title_separator          : "-"
 #name                     : &name "Your Name"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "ttatran/ttatran.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-#  avatar           : ""
+  avatar           : ""
   name             : "Tran Ta-Tran"
   pronouns         : "she/her"  
   bio              : "PhD student in Linguistics"
