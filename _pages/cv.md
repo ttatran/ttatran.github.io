@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Linguistics, Cornell University, 2029 (expected)
+* M.A. in Linguistics & Cogntive Science, University of Delaware, 2023
+* B.A. in Linguistics, University of Pittsburgh, 2020
 
 Work experience
 ======
@@ -41,11 +41,11 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+# Publications
+# ======
+#  <ul>{% for post in site.publications reversed %}
+#    {% include archive-single-cv.html %}
+#  {% endfor %}</ul>
   
 Talks
 ======
@@ -59,6 +59,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+# Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+# * Currently signed in to 43 different slack teams
