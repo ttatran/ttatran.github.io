@@ -2,9 +2,9 @@
 title: "LING202 Science of Language (Fall 2021, Spring 2022)"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2021-22teaching-1
+permalink: /teaching/2021-2022-teaching-1
 venue: "University of Delaware, Department of Linguistics and Cognitive Science"
-date: 2014-01-01
+#date: 2014-01-01
 location: "City, Country"
 ---
 
