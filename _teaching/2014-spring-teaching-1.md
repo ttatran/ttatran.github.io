@@ -1,9 +1,9 @@
 ---
-title: "Teaching experience 1"
+title: "LING202 Science of Language (Fall 2021, Spring 2022)"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
+permalink: /teaching/2021-22teaching-1
+venue: "University of Delaware, Department of Linguistics and Cognitive Science"
 date: 2014-01-01
 location: "City, Country"
 ---
