@@ -1,5 +1,5 @@
 ---
-title: "CGSC433/633 Introduction to Acoustic Phonetics"
+title: "CGSC433/633 Introduction to Acoustic Phonetics (Spring 2023)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-spring-teaching
