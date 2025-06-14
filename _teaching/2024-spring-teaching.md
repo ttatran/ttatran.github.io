@@ -1,5 +1,5 @@
 ---
-title: "LING353 Introduction to Speech and Hearing Science"
+title: "LING353 Introduction to Speech and Hearing Science (Spring 2024)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-spring-teaching
