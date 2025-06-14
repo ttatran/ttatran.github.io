@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2022-spring-teaching-2
 venue: "University of Delaware, Department of Linguistics and Cognitive Science"
-date: 2022-01-01
+date: "2022"
 location: 
 ---
 
