@@ -1,5 +1,5 @@
 ---
-title: "LING101 Introduction to Linguistics"
+title: "LING101 Introduction to Linguistics (Fall 2022)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2022-fall-teaching-2
