@@ -1,5 +1,5 @@
 ---
-title: "LING403/603 Introduction to Phonology"
+title: "LING403/603 Introduction to Phonology (Fall 2023)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-fall-teaching
