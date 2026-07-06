@@ -54,22 +54,41 @@
   width: 100%;
 }
 
+.greedy-nav {
+  justify-content: center;
+  overflow: visible;
+}
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  justify-content: center;
+  float: none;
+}
+
 /* Keep original link colors and hover behavior */
 .greedy-nav a {
   color: var(--global-text-color);
 }
+
 .greedy-nav a:hover {
   color: var(--global-link-color-hover);
   text-decoration: underline;
+}
+
+/* Keep all navigation links visible */
+.greedy-nav .hidden-links {
+  display: none !important;
 }
 
 /* Center footer */
 .page__footer {
   text-align: center;
 }
+
 .page__footer-follow {
   text-align: center;
 }
+
 .page__footer-copyright {
   text-align: center;
 }
@@ -84,77 +103,4 @@
   padding: 2px 6px;
   border-radius: 3px;
   font-size: 0.9em;
-}
-
-/* Simple style navigation */
-.simple-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  flex-wrap: wrap;
-}
-.simple-nav li {
-  margin: 0 12px;
-}
-.simple-nav a {
-  text-decoration: none;
-}
-
-/* Fully disable greedy-nav's collapsing/dropdown behavior */
-.greedy-nav {
-  justify-content: center;
-  overflow: visible;
-}
-.greedy-nav .visible-links {
-  display: flex !important;
-  flex-wrap: wrap;
-  justify-content: center;
-  float: none;
-}
-
-/* greedy-nav.js sets individual <li> to display:none inline
-   when it thinks they overflow — this overrides that */
-.greedy-nav .visible-links li {
-  display: inline-block !important;
-}
-
-/* Hide the hamburger/toggle button only (NOT hidden-links,
-   since that would hide any link greedy-nav has moved there) */
-.greedy-nav button {
-  display: none !important;
-}
-
-/* Reduce heading sizes in page content */
-.page__content h1 {
-  font-size: 1.6em;
-}
-.page__content h2 {
-  font-size: 1.4em;
-}
-.page__content h3 {
-  font-size: 1.2em;
-}
-.page__content h4 {
-  font-size: 1.1em;
-}
-
-/* Give navigation more room so greedy-nav doesn't move links out */
-.masthead__inner-wrap {
-  max-width: 100% !important;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-}
-
-/* Reduce spacing between links */
-.greedy-nav a {
-  padding-left: 0.3em !important;
-  padding-right: 0.3em !important;
-}
-
-/* Reduce site title size */
-.masthead__menu-item--lg {
-  font-size: 0.85em;
 }
