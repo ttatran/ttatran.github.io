@@ -41,10 +41,25 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-/* Custom styles */
 
+/* Center page content */
 .page__content {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Center header navigation */
+.masthead__menu {
+  width: 100%;
+}
+
+.greedy-nav {
+  justify-content: center;
+}
+
+.greedy-nav .visible-links {
+  display: flex;
+  justify-content: center;
+  float: none;
 }
