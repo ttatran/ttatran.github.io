@@ -56,10 +56,16 @@
 
 .greedy-nav {
   justify-content: center;
+  overflow: visible;
 }
 
 .greedy-nav .visible-links {
-  display: flex;
+  display: flex !important;
   justify-content: center;
   float: none;
+}
+
+/* Keep all navigation links visible */
+.greedy-nav .hidden-links {
+  display: none !important;
 }
