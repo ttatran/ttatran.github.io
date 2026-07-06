@@ -94,3 +94,23 @@
   border-radius: 3px;
   font-size: 0.9em;
 }
+
+/* Simple style navigation */
+
+.simple-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.simple-nav li {
+  margin: 0 12px;
+}
+
+.simple-nav a {
+  text-decoration: none;
+}
