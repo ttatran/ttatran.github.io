@@ -65,10 +65,20 @@
   float: none;
 }
 
-/* Keep all navigation links visible */
-.greedy-nav .hidden-links {
-  display: none !important;
+/* Keep original link colors and hover behavior */
+.greedy-nav a {
+  color: var(--global-text-color);
 }
+
+.greedy-nav a:hover {
+  color: var(--global-link-color-hover);
+  text-decoration: underline;
+}
+
+#/* Keep all navigation links visible */
+#.greedy-nav .hidden-links {
+#  display: none !important;
+#}
 
 /* Center footer */
 .page__footer {
@@ -95,22 +105,3 @@
   font-size: 0.9em;
 }
 
-/* Simple style navigation */
-
-.simple-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  flex-wrap: wrap;
-}
-
-.simple-nav li {
-  margin: 0 12px;
-}
-
-.simple-nav a {
-  text-decoration: none;
-}
