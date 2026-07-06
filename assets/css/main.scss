@@ -135,3 +135,17 @@
   display: none !important;
 }
 
+/* Reduce heading sizes in page content */
+.page__content h1 {
+  font-size: 1.6em;
+}
+.page__content h2 {
+  font-size: 1.4em;
+}
+.page__content h3 {
+  font-size: 1.2em;
+}
+.page__content h4 {
+  font-size: 1.1em;
+}
+
