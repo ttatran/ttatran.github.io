@@ -49,26 +49,6 @@
   margin-right: auto;
 }
 
-/* Center header navigation */
-.masthead__menu {
-  width: 100%;
-}
-
-.greedy-nav {
-  justify-content: center;
-  overflow: visible;
-}
-
-.greedy-nav .visible-links {
-  display: flex !important;
-  justify-content: center;
-  float: none;
-}
-
-/* Keep all navigation links visible */
-.greedy-nav .hidden-links {
-  display: none !important;
-}
 
 /* Center footer */
 .page__footer {
