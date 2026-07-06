@@ -7,8 +7,7 @@ author_profile: true
 
 
 
-**Cornell University**
-
+**Cornell University**<br>
 *Instructor of Record*<br>
 Department of Romance Studies<br>
 FREN 1220        Elementary French II (Spring 2026)<br>
@@ -21,8 +20,7 @@ LING 1101        Introduction to Linguistics (Fall 2026)
 
 
 
-**University of Delaware**
-
+**University of Delaware**<br>
 *Teaching Assistant*<br>
 Department of Linguistics and Cognitive Science<br>
 LING 353        Introduction to Speech and Hearing Science (Spring 2024)<br>
