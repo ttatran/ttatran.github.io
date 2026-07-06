@@ -54,16 +54,6 @@
   width: 100%;
 }
 
-.greedy-nav {
-  justify-content: center;
-  overflow: visible;
-}
-
-.greedy-nav .visible-links {
-  display: flex !important;
-  justify-content: center;
-  float: none;
-}
 
 /* Keep original link colors and hover behavior */
 .greedy-nav a {
@@ -118,5 +108,30 @@
 
 .simple-nav a {
   text-decoration: none;
+}
+
+/* Fully disable greedy-nav's collapsing/dropdown behavior */
+.greedy-nav {
+  justify-content: center;
+  overflow: visible;
+}
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  float: none;
+}
+
+/* greedy-nav.js sets individual <li> to display:none inline
+   when it thinks they overflow — this overrides that */
+.greedy-nav .visible-links li {
+  display: inline-block !important;
+}
+
+/* Hide the hamburger/toggle button and the hidden-links dropdown entirely */
+.greedy-nav button,
+.greedy-nav .hidden-links {
+  display: none !important;
 }
 
