@@ -54,27 +54,22 @@
   width: 100%;
 }
 
-
 /* Keep original link colors and hover behavior */
 .greedy-nav a {
   color: var(--global-text-color);
 }
-
 .greedy-nav a:hover {
   color: var(--global-link-color-hover);
   text-decoration: underline;
 }
 
-
 /* Center footer */
 .page__footer {
   text-align: center;
 }
-
 .page__footer-follow {
   text-align: center;
 }
-
 .page__footer-copyright {
   text-align: center;
 }
@@ -90,8 +85,8 @@
   border-radius: 3px;
   font-size: 0.9em;
 }
-/* Simple style navigation */
 
+/* Simple style navigation */
 .simple-nav {
   display: flex;
   justify-content: center;
@@ -101,11 +96,9 @@
   margin: 0;
   flex-wrap: wrap;
 }
-
 .simple-nav li {
   margin: 0 12px;
 }
-
 .simple-nav a {
   text-decoration: none;
 }
@@ -115,7 +108,6 @@
   justify-content: center;
   overflow: visible;
 }
-
 .greedy-nav .visible-links {
   display: flex !important;
   flex-wrap: wrap;
@@ -129,9 +121,9 @@
   display: inline-block !important;
 }
 
-/* Hide the hamburger/toggle button and the hidden-links dropdown entirely */
-.greedy-nav button,
-.greedy-nav .hidden-links {
+/* Hide the hamburger/toggle button only (NOT hidden-links,
+   since that would hide any link greedy-nav has moved there) */
+.greedy-nav button {
   display: none !important;
 }
 
@@ -149,3 +141,20 @@
   font-size: 1.1em;
 }
 
+/* Give navigation more room so greedy-nav doesn't move links out */
+.masthead__inner-wrap {
+  max-width: 100% !important;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+/* Reduce spacing between links */
+.greedy-nav a {
+  padding-left: 0.3em !important;
+  padding-right: 0.3em !important;
+}
+
+/* Reduce site title size */
+.masthead__menu-item--lg {
+  font-size: 0.85em;
+}
