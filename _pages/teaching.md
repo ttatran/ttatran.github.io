@@ -7,7 +7,7 @@ author_profile: false
 
 
 
-<br><br>**Cornell University**<br>
+<br>**Cornell University**<br>
 *Instructor of Record*<br>
 Department of Romance Studies:<br>
 FREN 1220        Elementary French II (Spring 2026)<br>
