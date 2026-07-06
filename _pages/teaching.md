@@ -15,7 +15,7 @@ FREN 1210        Elementary French I (Fall 2025)
 
 *Teaching Assistant*<br>
 Department of Linguistics:<br>
-LING 1101        Introduction to Linguistics (Fall 2026)
+LING 1101        Introduction to Linguistics (Fall 2026)<br><br>
 
 
 
