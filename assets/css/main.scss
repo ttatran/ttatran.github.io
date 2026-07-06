@@ -75,3 +75,31 @@
   font-size: 0.9em;
 }
 
+
+/* Align nav to match page content width and left edge */
+.masthead__inner-wrap {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.greedy-nav {
+  justify-content: flex-start;
+}
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  float: none;
+}
+
+.greedy-nav .visible-links li {
+  display: inline-block !important;
+}
+
+.greedy-nav button {
+  display: none !important;
+}
